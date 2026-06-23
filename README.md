@@ -40,6 +40,6 @@ Because this is a new fork, you must grant GitHub Actions permission to build an
 6. Once the process finishes successfully (takes about 1–2 minutes), go back to **Settings** > **Pages** to find your live website link at the top of the screen!
 7. Your url: https://User-Name.github.io/epg-viewer/
 
-<img src="https://github.com/BuddyChewChew/epg-viewer/blob/main/ss/Screenshot1.jpeg?raw=true" alt="My Project Screenshot" width="500">
+<img src="https://raw.githubusercontent.com/BuddyChewChew/epg-viewer/refs/heads/main/ss/Screenshot1.jpeg" alt="My Project Screenshot" width="500">
 
-<img src="https://github.com/BuddyChewChew/epg-viewer/blob/main/ss/Screenshot2.jpeg?raw=true" alt="My Project Screenshot" width="500">
+<img src="https://raw.githubusercontent.com/BuddyChewChew/epg-viewer/refs/heads/main/ss/Screenshot2.jpeg" alt="My Project Screenshot" width="500">
