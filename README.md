@@ -32,6 +32,9 @@ Because this is a new fork, you must grant GitHub Actions permission to build an
 ---
 
 ### Step 4: Run the Deployment & Add Your EPG
+
+![Actions][https://github.com/BuddyChewChew/epg-viewer/blob/main/ss/Screenshot1.jpeg?raw=true](https://github.com/BuddyChewChew/epg-viewer/blob/main/ss/Screenshot1.jpeg?raw=true)
+
 1. Click on the **Actions** tab at the very top menu of your repository.
 2. In the left sidebar, click on the workflow name.
 3. Click the **Run workflow** dropdown button on the right side.
