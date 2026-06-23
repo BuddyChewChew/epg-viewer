@@ -36,3 +36,4 @@ Because this is a new fork, you must grant GitHub Actions permission to build an
 4. A menu will drop down where you can type in a custom **Name** for your source and paste your own **EPG URL**. *(Note: If you just leave these blank, it will automatically use the default: `https://epgshare01.online`)*.
 5. Click the green **Run workflow** button.
 6. Once the process finishes successfully (takes about 1–2 minutes), go back to **Settings** > **Pages** to find your live website link at the top of the screen!
+7. Your url: https://User-Name.github.io/epg-viewer/
