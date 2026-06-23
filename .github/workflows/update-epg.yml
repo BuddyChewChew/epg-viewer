@@ -1,0 +1,51 @@
+name: Update EPG data
+
+on:
+  schedule:
+    # Every 30 minutes. Cron is UTC.
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "Ad-hoc XMLTV URL to spot-check (leave blank to refresh the default sources instead)"
+        required: false
+        default: ""
+      label:
+        description: "Label to show on the page for this ad-hoc source"
+        required: false
+        default: "Manual Check"
+
+permissions:
+  contents: write
+
+jobs:
+  update-epg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch default sources (scheduled run or manual run with no URL)
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.url == '' }}
+        run: python fetch_epg.py --out data/epg_data.json
+
+      - name: Fetch ad-hoc URL (manual run with a URL provided)
+        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.url != '' }}
+        run: |
+          python fetch_epg.py \
+            --url "${{ github.event.inputs.url }}" \
+            --label "${{ github.event.inputs.label }}" \
+            --out data/epg_data.json
+
+      - name: Commit updated data if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/epg_data.json
+          git diff --staged --quiet || git commit -m "Update EPG data ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+          git push
