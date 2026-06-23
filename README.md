@@ -39,3 +39,5 @@ Because this is a new fork, you must grant GitHub Actions permission to build an
 5. Click the green **Run workflow** button.
 6. Once the process finishes successfully (takes about 1–2 minutes), go back to **Settings** > **Pages** to find your live website link at the top of the screen!
 7. Your url: https://User-Name.github.io/epg-viewer/
+
+8. <img src="ss/screenshot1.jpeg" alt="My Project Screenshot" width="500">
