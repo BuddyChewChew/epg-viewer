@@ -1,3 +1,7 @@
+## EPG Providers
+https://epgshare01.online/epgshare01/
+https://iptv-epg.org/guides
+
 Live Demo: https://BuddyChewChew.github.io/epg-viewer/
 
 # Quick Setup Guide 🚀
