@@ -6,10 +6,11 @@ on:
       url:
         description: "XMLTV URL to fetch (.xml or .xml.gz)"
         required: true
+        default: "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
       label:
         description: "Label to show on the page for this source"
         required: false
-        default: "EPG Source"
+        default: "epg_ripper_ALL_SOURCES1.xml.gz"
 
 permissions:
   contents: write
