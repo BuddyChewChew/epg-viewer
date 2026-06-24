@@ -1,7 +1,3 @@
-## EPG Providers
-https://epgshare01.online/epgshare01/
-https://iptv-epg.org/guides
-
 Live Demo: https://BuddyChewChew.github.io/epg-viewer/
 
 # Quick Setup Guide 🚀
@@ -47,3 +43,9 @@ Because this is a new fork, you must grant GitHub Actions permission to build an
 <img src="https://raw.githubusercontent.com/BuddyChewChew/epg-viewer/refs/heads/main/ss/Screenshot1.jpeg" alt="My Project Screenshot" width="500">
 
 <img src="https://raw.githubusercontent.com/BuddyChewChew/epg-viewer/refs/heads/main/ss/Screenshot2.jpeg" alt="My Project Screenshot" width="500">
+
+
+## EPG Providers
+https://epgshare01.online/epgshare01/
+
+https://iptv-epg.org/guides
