@@ -33,12 +33,9 @@ Because this is a new fork, you must grant GitHub Actions permission to build an
 
 ### Step 4: Run the Deployment & Add Your EPG
 1. Click on the **Actions** tab at the very top menu of your repository.
-2. In the left sidebar, click on the workflow name.
-3. Click the **Run workflow** dropdown button on the right side.
-4. A menu will drop down where you can type in a custom **Name** for your source and paste your own **EPG URL**. *(Note: If you just leave these blank, it will automatically use the default: `https://epgshare01.online`)*.
-5. Click the green **Run workflow** button.
-6. Once the process finishes successfully (takes about 1–2 minutes), go back to **Settings** > **Pages** to find your live website link at the top of the screen!
-7. Your url: https://USERNAME.github.io/epg-viewer/
+2. A menu will drop down where you can type in a custom **Name** for your source and paste your own **EPG URL**. *(Note: If you just leave these, it will automatically use the default: `https://epgshare01.online`)*.
+3. Click the green **Run workflow** button.
+4. Once the process finishes successfully (takes about 1–2 minutes), go back to Your url: https://USERNAME.github.io/epg-viewer/
 
 <img src="https://raw.githubusercontent.com/BuddyChewChew/epg-viewer/refs/heads/main/ss/Screenshot1.jpeg" alt="My Project Screenshot" width="500">
 
