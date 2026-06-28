@@ -27,7 +27,7 @@ Because this is a new fork, you must grant GitHub Actions permission to build an
 ### Step 3: Configure GitHub Pages Deployment
 1. While still in the **Settings** tab, look at the left sidebar and click **Pages**.
 2. Under the **Build and deployment** section, look for **Source**.
-3. Under *Build and deployment*, *Source*. Select from the dropdown menu from **Deploy from a branch**.
+3. Under *Build and deployment*, *Source*, select from the dropdown menu **Deploy from a branch**.
 
 ---
 
